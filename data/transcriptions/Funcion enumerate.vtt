@@ -1,0 +1,101 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.000
+La función de número 8 se utiliza para iterar sobre una secuencia, sobre una lista,
+
+00:00:12.000 --> 00:00:16.500
+una tupla, un dicional en la cadena de la actriz. El caso es que nos va a proporcionar
+
+00:00:16.500 --> 00:00:26.000
+el índice y el valor por el valor de esa estructura de datos sobre la cual iteramos.
+
+00:00:26.000 --> 00:00:32.000
+La función toma unitarable como argumento y luego nos devolverá una tupla.
+
+00:00:32.000 --> 00:00:38.000
+¿Y qué tendrá esa tupla? Pues esa tupla tendrá el índice y el valor en semismo.
+
+00:00:38.000 --> 00:00:47.000
+¿Dónde ha dos componentes? Vamos a mirar, vamos a crear un no-yupider notebook como siempre, ¿verdad?
+
+00:00:47.000 --> 00:01:07.000
+En un... Y el nb, ¿vale? Y vamos a generar nuestro primer n°8 ¿de acuerdo? Entonces, ¿cómo es la sintaxis del n°8?
+
+00:01:07.000 --> 00:01:16.000
+Pues esto es unitarable, ¿cómo lo van a ser llamado? ¿Por índice?
+
+00:01:18.000 --> 00:01:33.000
+¿Por índice? El índice, el elemento, in, en un n°8, pli pli pli pli y le pasamos elitarable.
+
+00:01:37.000 --> 00:01:49.000
+¿Cosa iterable? ¿Nacuerdo? Y luego al final acabará con dos puntitos y ahora cosas ¿de acuerdo?
+
+00:01:49.000 --> 00:01:58.000
+Vamos a ver un ejemplo, voy a generar una lista de billetes, por ejemplo ¿vale?
+
+00:01:58.000 --> 00:02:18.000
+Lista billetes. Entonces, estos billetes son billetes de 5, de 10, de 20, de 50, de 100, de 200 y de 500 ¿vale?
+
+00:02:18.000 --> 00:02:26.000
+Por lo que sea. Vamos a comprobar que efectivamente esta lista se va a crear bien con o cual...
+
+00:02:27.000 --> 00:02:36.000
+¿vale? Genial. Tenemos nuestra lista creada. Ahora vamos a seguir estas sintaxis de aquí ¿nacuerdo?
+
+00:02:36.000 --> 00:02:58.000
+La cositerable es nuestra lista de billetes pues, por índice, por índice, elemento, in, en n°8, de mi cositerable que es la lista de los billetes ¿nacuerdo?
+
+00:02:59.000 --> 00:03:12.000
+Pues vamos a hacer un print de quién? Pues en este caso va a ser un print de...
+
+00:03:13.000 --> 00:03:32.000
+El índice de mi cositerable es...
+
+00:03:32.000 --> 00:03:53.000
+Y vamos a ponerle aquí índice ¿nacuerdo? Y el valor de mi cositerable es... pues, elemento ¿nacuerdo?
+
+00:03:53.000 --> 00:03:59.000
+¿nacuerdo?
+
+00:03:59.000 --> 00:04:11.000
+Genial, vamos a ver ¿qué pasa aquí? Puto plum. Genial. Vamos a ver entonces, esto de aquí es el cero ¿nacuerdo?
+
+00:04:12.000 --> 00:04:21.000
+Corresponda el billete 5. El índice del 10 es el 1. ¿nacuerdo? El 20 es el 2.
+
+00:04:22.000 --> 00:04:35.000
+Por dejarlo claro. ¿Oye? ¿Encha? ¿Cuál es el... el valor del cuarto elemento?
+
+00:04:39.000 --> 00:04:47.000
+Pues, ¿cién? A ver. Perfecto. ¿cién? Veamos otro ejemplo con una lista de nombres.
+
+00:04:48.000 --> 00:05:01.000
+Lista de nombres. Oye, mira, mi lista de nombres es... Luis... José...
+
+00:05:05.000 --> 00:05:16.000
+Y N ¿nacuerdo? Ahora quiero sacar el índice de cada uno de estos elementos ¿nacuerdo?
+
+00:05:17.000 --> 00:05:27.000
+For índice... Voy a cambiarlo por índice. ¿nacuerdo? Para que veáis que aquí podemos poner lo que queramos ¿nacuerdo?
+
+00:05:27.000 --> 00:05:38.000
+For índice en número 8 de quien demiterable que es... Lista de nombres. Lista nombres ¿nacuerdo?
+
+00:05:39.000 --> 00:05:48.000
+El índice de mi coseterable es 0 y el valor de mi coseterable es Luis. ¿nacuerdo?
+
+00:05:48.000 --> 00:05:55.000
+O sea que Luis tiene índice de 0 y el valor de mi coseterable es Luis.
+
+00:05:56.000 --> 00:06:08.000
+El índice de mi coseterable es 0 y el valor de mi coseterable es Luis. ¿nacuerdo? O sea que Luis tiene índice de 0.
+
+00:06:08.000 --> 00:06:17.000
+José tiene índice 1. Ahora tiene índice 2, con lo cual si yo quiero acceder, el valor.
+
+00:06:18.000 --> 00:06:26.000
+Si quiero acceder, el valor del índice 2, por ejemplo, me debería de salir la verdad.
+
+00:06:26.000 --> 00:06:39.000
+Y estaría muy bien pues puede ser un elemento bastante interesante cuando desdemos acceder a los índices de manera automática.
+

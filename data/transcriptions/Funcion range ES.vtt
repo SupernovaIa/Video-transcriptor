@@ -1,0 +1,131 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:14.000
+Vamos a ver la función range de acuerdo que es una de las funciones que tienen incorporadas
+
+00:00:14.000 --> 00:00:19.760
+Python para los bookles 4, ¿de acuerdo? Entonces lo primero que vamos a hacer como siempre
+
+00:00:19.760 --> 00:00:31.520
+con el costumbre es generar un nuevo Jupyter Notebook, vamos a poder funciones, ¿de acuerdo? Ya
+
+00:00:31.520 --> 00:00:40.520
+tenemos nuestro Jupyter creado y entonces la función range lo que va a hacer es generar una
+
+00:00:40.520 --> 00:00:46.600
+secuencia en números enteros, ¿de acuerdo? Esta secuencia la vamos a poder utilizar para crear
+
+00:00:46.600 --> 00:00:52.720
+una lista de números o para iterar en un booklet 4, ¿de acuerdo? Entonces la syntaxis es la siguiente,
+
+00:00:52.720 --> 00:01:09.480
+vamos a hacer range de un star, oi range de star, stop, stop, ¿de acuerdo? Vamos a fijarnos en esto,
+
+00:01:09.480 --> 00:01:18.160
+esto que acabamos de escribir, ¿de acuerdo? Es la syntaxis completa de nuestra función, el star
+
+00:01:18.160 --> 00:01:25.560
+representará el inicio de estos índices de esta secuencia de números que vamos a querer
+
+00:01:25.560 --> 00:01:31.000
+generar, el stop será el final de la secuencia de números que vamos a querer crear y el step
+
+00:01:31.000 --> 00:01:37.440
+serán los pasos que vamos a querer darle a esta secuencia de números de esta forma,
+
+00:01:37.440 --> 00:01:43.840
+podremos decirle por ejemplo que me generen una secuencia de números consecutivos que empiecen
+
+00:01:43.840 --> 00:01:50.000
+desde el cero hasta el día tomados de dos en dos, ¿de acuerdo? Entonces vamos a empezar con algo
+
+00:01:50.000 --> 00:01:55.600
+sencillo, ¿qué hace el range cuando le ponemos solamente el start? ¿De acuerdo?
+
+00:01:56.560 --> 00:02:02.880
+Lo hemos dicho que esto es una función de grada de Python para los booklets 4, entonces 4,
+
+00:02:02.880 --> 00:02:17.840
+elemento in range de acuerdo y vamos a ponerle, yo dice, 10 por ejemplo, ¿de acuerdo? Y vamos a
+
+00:02:17.840 --> 00:02:32.680
+printear cada uno de los elementos, ¿a acuerdo? Muy bien, acabamos de generar una secuencia
+
+00:02:32.680 --> 00:02:40.960
+numérica de enteros, de 10 elementos, empezando por el cero siempre, ¿de acuerdo? Pero 1, 2, 3, 4,
+
+00:02:40.960 --> 00:02:48.960
+tiene 9, ¿de acuerdo? ¿Nos dos 10 elementos? Muy bien, como decían de verdad, start stop step,
+
+00:02:48.960 --> 00:02:59.840
+ahora lo que vamos a hacer es exactamente lo mismo, por elemento in range de esta vez voy a empezar
+
+00:03:00.400 --> 00:03:09.880
+desde el 1, ¿de acuerdo? Hasta 10 y vamos a printerar estos elementos,
+
+00:03:11.720 --> 00:03:17.440
+Prín elemento, pun, ¿cómo podemos observar?
+
+00:03:18.700 --> 00:03:28.680
+¿Donde han des empezado en el cero? ¿vale? Ahora empiezan el 1 y acaban el 9, ¿de acuerdo?
+
+00:03:28.680 --> 00:03:37.800
+Por lo tanto el range va a contener hasta el elemento stop menos 1, de esta forma, si yo quiero que
+
+00:03:37.800 --> 00:03:46.680
+obtener una secuencia de números consecutivos hasta el 10, del 1 al 10, tendré que poner aquí
+
+00:03:46.680 --> 00:03:58.440
+1, ¿de acuerdo? Genial, ¿vale? Y ahora que vamos a hacer, vamos a probar el step, ¿de acuerdo?
+
+00:03:58.440 --> 00:04:12.000
+Vamos a hacer el elemento, vamos a generar una serie de elementos que estén contenidos desde el 1 hasta el 10,
+
+00:04:12.000 --> 00:04:27.240
+¿de acuerdo? ¿de acuerdo? Tomados de 2 en 2, ¿de acuerdo? Entonces empezarán el 1,
+
+00:04:27.240 --> 00:04:40.400
+1, el 2 no lo coge, el 3, el 4 no lo coge, el 5, el 6 no lo coge, el 7, ya sí hasta el final.
+
+00:04:44.920 --> 00:04:52.640
+Claro, estamos pensando como que, oye, a lo mejor yo quiero generar una secuencia de números
+
+00:04:52.640 --> 00:05:07.960
+pares, ¿verdad? Vamos a probar, si yo quiero hacer, generar unos números de 1 al 10 y que
+
+00:05:07.960 --> 00:05:13.960
+mojo coja los elementos pares, una posible solución sería decirle, oye, empieza el 0,
+
+00:05:13.960 --> 00:05:32.800
+acaba en el 11 y toma los de 2 en 2, el 1, elementos, ¿de acuerdo? Ojalá el 0 también, 0, 2, 4, 6, 8 y 10,
+
+00:05:32.800 --> 00:05:41.040
+entonces si esta manera ya tendríamos elementos pares del 0 al 10. Pongamos que ahora queremos
+
+00:05:41.040 --> 00:05:59.000
+almacenar estos valores en una lista. Vamos a generar primero una lista de números vacíos,
+
+00:05:59.000 --> 00:06:10.560
+4, elemento, y en range. Voy a copiar exactamente lo mismo que hoy en la Zelda anterior, ¿de acuerdo?
+
+00:06:10.560 --> 00:06:19.320
+Hasta el 10 y tomamos de 2 en 2, ¿de acuerdo? Y ahora lo único que tengo que hacer es agregar cada uno
+
+00:06:19.320 --> 00:06:25.880
+de estos elementos a la lista de números, maldita sea, lo único que tengo que hacer es invocar a la lista
+
+00:06:25.880 --> 00:06:33.640
+de números, apendear el que, pues que a uno de los elementos por los cuales estoy iterando,
+
+00:06:35.040 --> 00:06:41.440
+vamos a mirar si efectivamente lista de números, continúa los números pares, y así tendríamos,
+
+00:06:41.440 --> 00:06:48.920
+habríamos generado una lista de números pares, muy bien, y con esto ya terminamos con esta
+
+00:06:48.920 --> 00:06:55.920
+parte del range, una cosa que puede ser muy interesante para iterar por ejemplo por diccionarios,
+
+00:06:55.920 --> 00:07:00.720
+o generar simplemente una secuencia de números enteros.
+

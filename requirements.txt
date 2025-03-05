@@ -1,0 +1,5 @@
+yt-dlp>=2023.3.4
+openai-whisper>=20230124
+tqdm>=4.65.0
+torch>=2.0.0
+numpy>=1.22.0
